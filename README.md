@@ -2,12 +2,13 @@
 
 ## Screens 
 
-- [X]Header
-- []Home
-- [X]Banner
-- []Search Date
-- []Cards
-- []Footer
+- [X] Header
+- [] Home
+- [X] Banner
+- [] Search Date
+- [] Cards
+- [] Footer
 
-- []Search
-- []Search Result
+- [] Search
+- [] Search Result
+
