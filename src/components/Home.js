@@ -3,6 +3,7 @@ import "components/Home.css";
 import Banner from "components/Banner";
 import Card from "components/Card";
 import Title from "components/Title";
+import OneCard from "components/OneCard";
 
 const Home = () => {
   return (
@@ -31,6 +32,11 @@ const Home = () => {
                 description="Travel around the world with your Pet"
             />
       </div>
+
+      <div className="home__section">
+        <OneCard src="https://a0.muscache.com/im/pictures/eff28e1d-51c4-49ff-8266-68d6929ea1ec.jpg?im_w=1680"/>
+      </div>
+
       <Title title="Experience the world" description="Activities to book with your upcoming stay." />
       <div className="home__section">
         <Card src="https://a0.muscache.com/im/pictures/4d353c80-e73a-4b04-9e15-ec3d8381b106.jpg?im_w=720" 
