@@ -3,7 +3,7 @@ import 'components/DatePicker.css';
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
 import { DateRangePicker } from 'react-date-range';
-import { Button } from '@material-ui/core';
+// import { Button } from '@material-ui/core';
 import PeopleIcon from '@material-ui/icons/People';
 
 const DatePicker = () => {
