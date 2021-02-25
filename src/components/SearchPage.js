@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "components/SearchPage.css";
 import { Button } from "@material-ui/core";
 import SearchResult from "components/SearchResult";
@@ -6,8 +6,7 @@ import SearchResult from "components/SearchResult";
 const SearchPage = (props) => {
   const {location : {numOfPeople, startDate, endDate}} = props;
   const numberOfGuest = parseInt(numOfPeople);
-  const [defaultDays, SetDefaultDays] = useState(1);
-  console.log(defaultDays)
+  const defaultDays = 1;
 
   let start, end, totalNights;
 
@@ -16,7 +15,8 @@ const SearchPage = (props) => {
       end = `${endDate.getMonth() + 1}/${endDate.getDate()}`;
 
       const diff_inTime=Math.abs(endDate.getTime()-startDate.getTime());
-      totalNights = diff_inTime / (1000 * 3600 * 24);
+      totalNights = parseInt(diff_inTime / (1000 * 3600 * 24));
+      console.log(totalNights)
   }
 
 
