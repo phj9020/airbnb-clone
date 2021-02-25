@@ -9,10 +9,13 @@
     top: 0;
     z-index: 100; 
 }
-.header__icon {
+
+.header > a {
+    margin-left: 8%;
+}
+.header__icon  {
     object-fit: contain;
     height: 30px;
-    margin-left: 8%;
 }
 
 .header__center {

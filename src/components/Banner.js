@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import 'components/Banner.css';
 import { Button } from '@material-ui/core';
 import DatePicker from 'components/DatePicker';
+import { Link } from "react-router-dom";
 
 
 const Banner = ()=>{
@@ -20,7 +21,7 @@ const Banner = ()=>{
             <div className="banner__info">
                 <h2>Go</h2>
                 <h2>Near</h2>
-                <Button className="banner__infoBtn" variant="outlined">Explore Nearby Stays</Button>
+                <Button className="banner__infoBtn" variant="outlined"><Link to="/search">Explore Nearby Stays </Link></Button>
             </div>
         </div>
     )
