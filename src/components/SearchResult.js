@@ -30,7 +30,7 @@ const SearchResult = ({
                 </div>
                 <div className="searchResult__price">
                     <h3>{`${price} / night`}</h3>
-                    <p>{`${total} total`}</p>
+                    <p>{`$${total} total`}</p>
                 </div>
             </div>
         </div>

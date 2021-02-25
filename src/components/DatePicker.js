@@ -11,7 +11,7 @@ const DatePicker = () => {
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(new Date());
     const [numPeople, setNumPeople] = useState(2);
-    
+
     const history = useHistory();
 
     const selectionRange = {
@@ -34,7 +34,9 @@ const DatePicker = () => {
         event.preventDefault();
         history.push({
             pathname: "/search",
-            numOfPeople: numPeople
+            numOfPeople: numPeople,
+            startDate : startDate,
+            endDate : endDate
         });
     }
 
