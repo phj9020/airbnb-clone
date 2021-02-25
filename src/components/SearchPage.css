@@ -14,7 +14,7 @@
 .searchPage__info > button{
     border-radius: 20px;
     text-transform: inherit;
-   
+    margin-bottom: 50px;
 }
 .searchPage__info > button:not(:last-child) {
     margin-right: 8px;

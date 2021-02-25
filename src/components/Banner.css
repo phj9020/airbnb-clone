@@ -51,6 +51,8 @@
     padding: 10px;
 }
 
-.banner__infoBtn a:focus {
+.banner__infoBtn a:focus,
+.banner__infoBtn a:visited {
     color: black;
 }
+ 
