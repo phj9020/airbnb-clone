@@ -49,6 +49,7 @@
     text-decoration:none;
     display:block;
     padding: 10px;
+    color: black;
 }
 
 .banner__infoBtn a:focus,
