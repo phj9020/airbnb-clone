@@ -19,3 +19,9 @@
 .searchPage__info > button:not(:last-child) {
     margin-right: 8px;
 }
+
+@media screen and (max-width:780px) {
+    .searchPage__info > button {
+        margin-bottom: 10px;
+    }
+}

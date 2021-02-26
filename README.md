@@ -3,11 +3,11 @@
 ## Screens 
 
 - [X] Header
-- [] Home
+- [X] Home
 - [X] Banner
 - [X] Search Date
-- [] Cards
-- [] Footer
+- [X] Cards
+- [X] Footer
 
-- [] Search
-- [] Search Result
+- [X] Search
+- [X] Search Result
